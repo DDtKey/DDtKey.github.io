@@ -1,0 +1,7 @@
+{% include "apollo/templates/partials/header.html" %}
+
+{% block extra_head %}
+    <link id="syntax_highlight_dark" href={{ get_url(path="css/syntax-dark.css") }} rel="stylesheet" />
+    <link id="syntax_highlight_light" href={{ get_url(path="css/syntax-light.css") }} rel="stylesheet" />
+    <script src={{ get_url(path="js/syntax-highlight-switch.js") }} defer></script>
+{% endblock %}

@@ -1,0 +1,33 @@
+@import "../themes/apollo/sass/main.scss";
+
+:root.dark {
+  --primary-color: #41c4f0;
+}
+
+:root.light {
+  --primary-color: #41c4f0;
+}
+
+img {
+  border: unset;
+  border-radius: 3%;
+}
+
+a:has(img) {
+  all: unset;
+}
+
+a:hover:has(img) {
+  all: unset;
+  cursor: pointer;
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.card-image {
+  display: block;
+  width: unset;
+  min-width: 50%;
+  max-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
