@@ -7,6 +7,8 @@ title = "DDtKey"
 default_language = "en"
 build_search_index = true
 generate_feed = true
+slugify.paths_keep_dates = false
+slugify.paths = "safe"
 
 taxonomies = [
     { name = "tags", feed = true},
