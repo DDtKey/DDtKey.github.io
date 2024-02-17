@@ -47,6 +47,12 @@ socials = [
 
 stylesheets = []
 
+[extra.analytics]
+enabled = true
+
+[extra.analytics.goatcounter]
+user = "ddtkey"
+
 [extra.author]
 name = "ddtkey"
 homepage = "https://ddtkey.com"
