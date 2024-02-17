@@ -3,13 +3,26 @@ base_url = "https://ddtkey.com"
 theme = "apollo"
 compile_sass = true
 
-title = "DDtKey"
 default_language = "en"
 build_search_index = true
 generate_feed = true
-slugify.paths_keep_dates = false
-slugify.paths = "safe"
 
+[slugify]
+paths_keep_dates = false
+paths = "safe"
+
+[markdown]
+render_emoji = true
+external_links_target_blank = true
+highlight_code = true
+highlight_theme = "css"
+highlight_themes_css = [
+    { theme = "ayu-dark", filename = "css/syntax-dark.css" },
+    { theme = "ayu-light", filename = "css/syntax-light.css" },
+]
+
+[languages.en]
+title = "DDtKey"
 taxonomies = [
     { name = "tags", feed = true},
 ]
@@ -18,14 +31,6 @@ taxonomies = [
 title = "DDtKey"
 taxonomies = [
     { name = "tags", feed = true},
-]
-
-[markdown]
-highlight_code = true
-highlight_theme = "css"
-highlight_themes_css = [
-    { theme = "ayu-dark", filename = "css/syntax-dark.css" },
-    { theme = "ayu-light", filename = "css/syntax-light.css" },
 ]
 
 [extra]
