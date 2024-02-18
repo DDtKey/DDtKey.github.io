@@ -6,6 +6,7 @@ compile_sass = true
 default_language = "en"
 build_search_index = true
 generate_feed = true
+author = "Artem Medvedev"
 
 [slugify]
 paths_keep_dates = false
@@ -61,5 +62,5 @@ enabled = true
 user = "ddtkey"
 
 [extra.author]
-name = "ddtkey"
+name = "Artem Medvedev"
 homepage = "https://ddtkey.com"
