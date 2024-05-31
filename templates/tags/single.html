@@ -1,8 +1,0 @@
-{% extends "page.html" %}
-
-{% block main_content %}
-<ul class="tags">
-    <li class="page-header">{{ term.name }}</li>
-</ul>
-{{ post_macros::list_posts(pages=term.pages) }}
-{% endblock main_content %}
