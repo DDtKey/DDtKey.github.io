@@ -50,7 +50,7 @@ socials = [
     { name = "linkedin", url = "https://www.linkedin.com/in/ddtkey", icon = "linkedin" },
     { name = "telegram", url = "https://t.me/ddtkey", icon = "telegram" },
     { name = "email", url = "mailto:i@ddtkey", icon = "email" },
-#    { name = "twitter", url = "https://twitter.com/ddttkey", icon = "x-twitter" },
+    { name = "twitter", url = "https://twitter.com/ddttkey", icon = "x-twitter" },
 ]
 
 stylesheets = []
