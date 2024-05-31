@@ -18,6 +18,10 @@ a:has(img) {
 }
 
 a:hover:has(img) {
+    cursor: pointer;
+}
+
+a:hover:has(img[content="true"]) {
   all: unset;
   cursor: pointer;
   border-bottom: 3px solid var(--primary-color);

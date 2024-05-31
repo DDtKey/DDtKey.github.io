@@ -106,7 +106,7 @@ tags = ["rust", "authz"]
 
 <p align="center">
     <a href="https://github.com/casbin/casbin-rs">
-        <img alt="casbin-rs" src="/images/posts/authz-in-rust/casbin.png"/>
+        <img content="true" alt="casbin-rs" src="/images/posts/authz-in-rust/casbin.png"/>
     </a>
 </p>
 
@@ -188,7 +188,7 @@ async fn main() -> () {
 
 <p align="center">
     <a href="https://github.com/DDtKey/actix-web-grants">
-        <img alt="actix-web-grants" src="/images/posts/authz-in-rust/awg.png"/>
+        <img content="true" alt="actix-web-grants" src="/images/posts/authz-in-rust/awg.png"/>
     </a>
 </p>
 

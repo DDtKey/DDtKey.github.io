@@ -107,7 +107,7 @@ It can be both library (in the form of crates), and custom implementations. But 
 
 <p align="center">
     <a href="https://github.com/casbin/casbin-rs">
-        <img alt="casbin-rs" src="/images/posts/authz-in-rust/casbin.png"/>
+        <img content="true" alt="casbin-rs" src="/images/posts/authz-in-rust/casbin.png"/>
     </a>
 </p>
 
@@ -189,7 +189,7 @@ I came up with the idea of implementing my own solution as a separate open sourc
 
 <p align="center">
     <a href="https://github.com/DDtKey/actix-web-grants">
-        <img alt="actix-web-grants" src="/images/posts/authz-in-rust/awg.png"/>
+        <img content="true" alt="actix-web-grants" src="/images/posts/authz-in-rust/awg.png"/>
     </a>
 </p>
 
