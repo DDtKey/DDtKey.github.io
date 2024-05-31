@@ -1,6 +1,6 @@
 +++
 title = "Exponential Buckets Explorer"
-weight = 2
+weight = 30
 
 [extra]
 local_image = "/images/projects/buckets-exp.png"
