@@ -38,6 +38,7 @@ taxonomies = [
 theme = "toggle"
 favicon = "/icons/favicon-32x32.png"
 toc = true
+comment = false
 
 menu = [
     { name = "/blog", url = "/blog", weight = 1 },

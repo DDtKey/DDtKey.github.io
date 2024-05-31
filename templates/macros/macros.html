@@ -8,6 +8,10 @@
 {{ original_macros::list_terms(terms=terms) }}
 {% endmacro list_terms %}
 
+{% macro list_title(pages, tag_name=false) %}
+{{ original_macros::list_title(pages=term.pages, tag_name=term.name) }}
+{% endmacro list_terms %}
+
 {% macro tags(page, short=false) %}
 {{ original_macros::tags(page=page, short=short) }}
 {% endmacro tags %}
