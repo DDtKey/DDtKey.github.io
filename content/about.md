@@ -5,11 +5,11 @@ path = "about"
 
 <img width="200" class="img-float-l" alt="Artem Medvedev" src="/images/authors/ddtkey.png" />
 
-Hi, my name is Artem Medvedev. 
-I'm an experienced software engineer who delivers reliable, production-ready solutions from scratch.
+Hi, I’m Artem Medvedev 👋
+I’m a passionate software engineer who loves building reliable, high-performance distributed systems.
+I enjoy taking full ownership of what I build — from designing architecture and writing code to running services in production.
 
-I'm a big fan of software development, it's more than just a job for me.
-I always strive for professional growth, gaining new knowledge and opportunities 🚀 
+I’m always learning, aiming for technical excellence, and building things that make a real difference 🚀
 
 <br/>
 
